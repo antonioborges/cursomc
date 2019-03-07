@@ -63,7 +63,7 @@ public class Cidade implements Serializable {
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((nome == null) ? 0 : nome.hashCode());
 		return result;
-	}
+	}   
 
 	@Override
 	public boolean equals(Object obj) {

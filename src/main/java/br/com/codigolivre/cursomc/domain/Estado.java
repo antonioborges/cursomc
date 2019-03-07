@@ -32,7 +32,7 @@ public class Estado implements Serializable {
 	public Estado(Integer id, String nome) {
 		this.id = id;
 		this.nome = nome;
-	}
+	} 
 
 	public Integer getId() {
 		return id;
