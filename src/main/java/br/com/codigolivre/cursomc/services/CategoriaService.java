@@ -21,4 +21,8 @@ public class CategoriaService {
 				"Objeto não encontrado! Id: " + id + ", Tipo: " + Categoria.class.getName()));
 	}
 
+	public Categoria cadastrar(Categoria categoria) {
+		categoria.setId(null);
+		return categoriaRepository.save(categoria);
+	}
 }
